@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Ewa Borowska</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        header .info {
+            flex: 1;
+            text-align: left;
+        }
+        .main {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .main h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .main .section {
+            margin-bottom: 20px;
+        }
+        .main .section h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .main .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .main .section ul li {
+            background: #f4f4f4;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-left: 5px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="zdjecie.jpg" alt="Zdjęcie Ewy Borowskiej">
+        <div class="info">
+            <h1>Ewa Borowska</h1>
+            <p>Email: ewa.borowska@gmail.com | Telefon: 123-456-789</p>
+            <p>Adres: Ul. Deszczowa 1, 00-001 Warszawa, Polska</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <div class="section">
+                <h2>Doświadczenie zawodowe</h2>
+                <div>
+                    <h3>Praktykantka - Studio Grafiki XYZ</h3>
+                    <p>07.2023 - 09.2023</p>
+                    <ul>
+                        <li>Pomoc przy tworzeniu projektów graficznych</li>
+                        <li>Przygotowanie materiałów do druku</li>
+                        <li>Wsparcie zespołu w bieżących zadaniach</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Wykształcenie</h2>
+                <div>
+                    <h3>Uniwersytet WSB Merito Warszawa</h3>
+                    <p>Grafika komputerowa - studia licencjackie, 2021 - obecnie</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Umiejętności</h2>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>CorelDRAW</li>
+                    <li>Projektowanie grafiki wektorowej</li>
+                    <li>Tworzenie animacji</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Projekty</h2>
+                <div>
+                    <h3>Projekt Logo dla Lokalnego Sklepu</h3>
+                    <p>Zaprojektowanie nowego logo dla lokalnego sklepu spożywczego, uwzględniając oczekiwania klienta oraz zasady projektowania graficznego.</p>
+                </div>
+                <div>
+                    <h3>Plakat na Wydarzenie Kulturalne</h3>
+                    <p>Stworzenie plakatu promującego wydarzenie kulturalne w mieście, wykorzystując techniki grafiki komputerowej.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Języki</h2>
+                <ul>
+                    <li>Polski - ojczysty</li>
+                    <li>Angielski - średnio zaawansowany</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Zainteresowania</h2>
+                <ul>
+                    <li>Grafika komputerowa</li>
+                    <li>Fotografia</li>
+                    <li>Sztuka współczesna</li>
+                    <li>Podróże</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
